@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +11,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
   <component name="ProjectViewState">
@@ -54,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641991838249</updated>
       <workItem from="1641991846690" duration="853000" />
+      <workItem from="1642004967211" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -69,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641994079922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Imported the pin meshes and placed them on the lane">
+      <created>1642005385226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642005385226</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,11 +101,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial  commit" />
     <MESSAGE value="Created a floor object and applyed a texture to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a floor object and applyed a texture to it" />
+    <MESSAGE value="Imported the pin meshes and placed them on the lane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported the pin meshes and placed them on the lane" />
   </component>
 </project>
