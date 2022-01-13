@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Reorganized the pins in the hierarchy">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Added a ball with a rigid body and a script to give it initial velocity">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Imports/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blender Imports/Materials/No Name.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +12,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
   <component name="ProjectViewState">
@@ -60,7 +62,7 @@
       <updated>1641991838249</updated>
       <workItem from="1641991846690" duration="853000" />
       <workItem from="1642004967211" duration="446000" />
-      <workItem from="1642079323833" duration="1738000" />
+      <workItem from="1642079323833" duration="3938000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642079377713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a ball with a rigid body and a script to give it initial velocity">
+      <created>1642081351447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642081351447</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +126,7 @@
     <MESSAGE value="Created a floor object and applyed a texture to it" />
     <MESSAGE value="Imported the pin meshes and placed them on the lane" />
     <MESSAGE value="Reorganized the pins in the hierarchy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized the pins in the hierarchy" />
+    <MESSAGE value="Added a ball with a rigid body and a script to give it initial velocity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a ball with a rigid body and a script to give it initial velocity" />
   </component>
 </project>
