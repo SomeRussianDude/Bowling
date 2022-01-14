@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Added a ball with a rigid body and a script to give it initial velocity">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <updated>1641991838249</updated>
       <workItem from="1641991846690" duration="853000" />
       <workItem from="1642004967211" duration="446000" />
-      <workItem from="1642079323833" duration="3938000" />
+      <workItem from="1642079323833" duration="4639000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642081351447</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Camera is now following the ball to the pins and stops at the first pin position">
+      <created>1642083384516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642083384516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +133,7 @@
     <MESSAGE value="Imported the pin meshes and placed them on the lane" />
     <MESSAGE value="Reorganized the pins in the hierarchy" />
     <MESSAGE value="Added a ball with a rigid body and a script to give it initial velocity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a ball with a rigid body and a script to give it initial velocity" />
+    <MESSAGE value="Camera is now following the ball to the pins and stops at the first pin position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera is now following the ball to the pins and stops at the first pin position" />
   </component>
 </project>
