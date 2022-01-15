@@ -31,4 +31,9 @@ public class DragLaunch : MonoBehaviour
         var launchVelocity = new Vector3(launchSpeedX, 0, launchSpeedZ);
         ball.Launch(launchVelocity);
     }
+    public void MoveStart(float xNudge)
+    {
+        ball.transform.Translate(new Vector3(xNudge,0,0));
+    }
+
 }

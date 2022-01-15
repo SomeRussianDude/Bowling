@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Ball.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -67,7 +71,8 @@
       <workItem from="1641991846690" duration="853000" />
       <workItem from="1642004967211" duration="446000" />
       <workItem from="1642079323833" duration="4639000" />
-      <workItem from="1642163991899" duration="4561000" />
+      <workItem from="1642163991899" duration="4977000" />
+      <workItem from="1642257429202" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642165384049</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented simple touch control for launching the ball">
+      <created>1642170499868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642170499868</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +168,7 @@
     <MESSAGE value="Camera is now following the ball to the pins and stops at the first pin position" />
     <MESSAGE value="Made prefabs and reorganized the hierarchy + adjusted physics a bit" />
     <MESSAGE value="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen" />
+    <MESSAGE value="Implemented simple touch control for launching the ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented simple touch control for launching the ball" />
   </component>
 </project>
