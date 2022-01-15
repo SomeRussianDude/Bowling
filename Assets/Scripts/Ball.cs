@@ -7,15 +7,15 @@ public class Ball : MonoBehaviour
     [SerializeField] private Vector3 launchSpeed;
     private Rigidbody _rigidbody;
     private AudioSource _audioSource;
-    private bool isRolling;
+    private bool isRolling = false;
 
+    public bool IsRolling => isRolling;
 
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.useGravity = false;
-        isRolling = false;
 
         _audioSource = GetComponent<AudioSource>();
     }
