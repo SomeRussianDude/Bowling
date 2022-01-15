@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
   <component name="ProjectViewState">
@@ -68,7 +69,7 @@
       <workItem from="1642079323833" duration="4639000" />
       <workItem from="1642163991899" duration="4977000" />
       <workItem from="1642257429202" duration="2013000" />
-      <workItem from="1642259548425" duration="382000" />
+      <workItem from="1642259548425" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642259375335</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch">
+      <created>1642261763693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642261763693</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +181,7 @@
     <MESSAGE value="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen" />
     <MESSAGE value="Implemented simple touch control for launching the ball" />
     <MESSAGE value="Added arrows to move the start point of the Ball, attached a method to move the ball. Doesn't work, don't understand why" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added arrows to move the start point of the Ball, attached a method to move the ball. Doesn't work, don't understand why" />
+    <MESSAGE value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
   </component>
 </project>
