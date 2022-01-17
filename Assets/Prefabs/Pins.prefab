@@ -609,10 +609,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowling Pin 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6847151347375219394, guid: d47fc4e5e12bad343bddf38493ece56d, type: 3}
-      propertyPath: m_Convex
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6847151347375355969, guid: d47fc4e5e12bad343bddf38493ece56d, type: 3}
       propertyPath: m_RootOrder
       value: 0

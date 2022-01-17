@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-    </list>
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +66,7 @@
       <workItem from="1642079323833" duration="4639000" />
       <workItem from="1642163991899" duration="4977000" />
       <workItem from="1642257429202" duration="2013000" />
-      <workItem from="1642259548425" duration="1760000" />
+      <workItem from="1642259548425" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642261763693</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created an object swiper for future animation">
+      <created>1642262974387</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642262974387</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +186,7 @@
     <MESSAGE value="Implemented simple touch control for launching the ball" />
     <MESSAGE value="Added arrows to move the start point of the Ball, attached a method to move the ball. Doesn't work, don't understand why" />
     <MESSAGE value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
+    <MESSAGE value="Created an object swiper for future animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an object swiper for future animation" />
   </component>
 </project>
