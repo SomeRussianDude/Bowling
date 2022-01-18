@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Created a new Scene where everything is scaled to centimeters">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented a mechanism for checking whether the pins are vertical">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Bowling Pin.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Bowling Pin.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Bowling Pin.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -178,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642517516052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implemented a mechanism for checking whether the pins are vertical">
+      <created>1642523428324</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642523428324</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +226,7 @@
     <MESSAGE value="Created an object swiper for future animation" />
     <MESSAGE value="Attempts at physics bug fixing. The Swiper now pushes the pins off. But the ball still doesn't blow them off the floor" />
     <MESSAGE value="Created a new Scene where everything is scaled to centimeters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new Scene where everything is scaled to centimeters" />
+    <MESSAGE value="Implemented a mechanism for checking whether the pins are vertical" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a mechanism for checking whether the pins are vertical" />
   </component>
 </project>
