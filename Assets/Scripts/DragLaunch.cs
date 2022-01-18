@@ -26,10 +26,13 @@ public class DragLaunch : MonoBehaviour
         dragEnd = Input.mousePosition;
         endTime = Time.time;
         var dragDuration = endTime - startTime;
-        var launchSpeedX = (dragEnd.x - dragStart.x) / dragDuration;
-        var launchSpeedZ = (dragEnd.y - dragStart.y) / dragDuration;
+        var launchSpeedX = (dragEnd.x - dragStart.x) / dragDuration /100;
+        var launchSpeedZ = (dragEnd.y - dragStart.y) / dragDuration / 100;
         var launchVelocity = new Vector3(launchSpeedX, 0, launchSpeedZ);
-        ball.Launch(launchVelocity);
+        if (!ball.IsRolling)
+        {
+            ball.Launch(launchVelocity);
+        }
     }
 
     public void MoveStart(float xNudge)
