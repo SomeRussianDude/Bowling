@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c7e0ac9ab807a04c871b8dfccc61c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standingThreshold: 3
+  standingThreshold: 4
 --- !u!1 &6847151347375187043
 GameObject:
   m_ObjectHideFlags: 0

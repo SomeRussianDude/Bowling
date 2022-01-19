@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +7,12 @@ using UnityEngine.UI;
 public class PinSetter : MonoBehaviour
 {
     [SerializeField] private Text standingDisplay;
+    private bool ballEnteredBox;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        ballEnteredBox = false;
     }
 
     // Update is called once per frame
@@ -31,5 +34,24 @@ public class PinSetter : MonoBehaviour
         }
 
         return pinsStanding;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        var otherObject = other.gameObject;
+        if (otherObject.GetComponent<Ball>())
+        {
+            ballEnteredBox = true;
+            standingDisplay.color = Color.red;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        var otherObject = other.gameObject;
+        if (otherObject.GetComponent<Pin>())
+        {
+            Destroy(otherObject, 1f);
+        }
     }
 }
