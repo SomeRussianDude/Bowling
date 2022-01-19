@@ -19,8 +19,11 @@ public class Pin : MonoBehaviour
     public bool IsStanding()
     {
         var rotationInEuler = transform.rotation.eulerAngles;
+        
         var tiltInX = Mathf.Abs(rotationInEuler.x);
+        tiltInX = tiltInX < 180 ? tiltInX : 360 - tiltInX; 
         var tiltInZ = Mathf.Abs(rotationInEuler.z);
+        tiltInZ = tiltInZ < 180 ? tiltInZ : 360 - tiltInZ;
         if (tiltInX < standingThreshold && tiltInZ < standingThreshold)
         {
             return true;
