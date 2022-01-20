@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented a mechanism for definitive counting of the standing pins in case they wobble">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Swiper.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Swiper.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game In Cm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game In Cm.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Bowling Pin RotFix.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/d3/e824502f/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
