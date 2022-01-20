@@ -20,8 +20,8 @@ public class Pin : MonoBehaviour
     {
         var rotationInEuler = transform.rotation.eulerAngles;
         
-        var tiltInX = Mathf.Abs(270 - rotationInEuler.x);
-        // tiltInX = tiltInX < 180 ? tiltInX : 360 - tiltInX; 
+        var tiltInX = Mathf.Abs(rotationInEuler.x);
+        tiltInX = tiltInX < 180 ? tiltInX : 360 - tiltInX; 
         var tiltInZ = Mathf.Abs(rotationInEuler.z);
         tiltInZ = tiltInZ < 180 ? tiltInZ : 360 - tiltInZ;
         if (tiltInX < standingThreshold && tiltInZ < standingThreshold)

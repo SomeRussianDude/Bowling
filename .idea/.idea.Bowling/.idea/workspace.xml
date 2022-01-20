@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Reorganized pins moving the components to single object and turning them 270 degrees" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Scaling_everything_to_CM" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +77,7 @@
       <workItem from="1642516692155" duration="1329000" />
       <workItem from="1642604889714" duration="1445000" />
       <workItem from="1642613613281" duration="3819000" />
-      <workItem from="1642675128267" duration="410000" />
+      <workItem from="1642675128267" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642618205801</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Reorganized pins moving the components to single object and turning them 270 degrees">
+      <created>1642675810295</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642675810295</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +261,7 @@
     <MESSAGE value="Fixed the bug where pins were considered fallen because of negative tilt angles" />
     <MESSAGE value="Implemented mechanism for pin setter to detect if the ball has arrived to pins. The standing pin counter turns red, a flag is raised. Also fixed some bugs" />
     <MESSAGE value="Unsaved scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unsaved scene" />
+    <MESSAGE value="Reorganized pins moving the components to single object and turning them 270 degrees" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized pins moving the components to single object and turning them 270 degrees" />
   </component>
 </project>
