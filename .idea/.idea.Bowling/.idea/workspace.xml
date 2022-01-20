@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Fixed the bug where pins were considered fallen because of negative tilt angles">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bowling Pin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pins.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pin.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +23,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/DragLaunch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/Pin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/d3/e824502f/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -84,7 +81,8 @@
       <workItem from="1642259548425" duration="2017000" />
       <workItem from="1642516692155" duration="1329000" />
       <workItem from="1642604889714" duration="1445000" />
-      <workItem from="1642613613281" duration="2864000" />
+      <workItem from="1642613613281" duration="3819000" />
+      <workItem from="1642675128267" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -205,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642614541011</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implemented mechanism for pin setter to detect if the ball has arrived to pins. The standing pin counter turns red, a flag is raised. Also fixed some bugs">
+      <created>1642618188226</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642618188226</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Unsaved scene">
+      <created>1642618205801</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642618205801</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +257,8 @@
     <MESSAGE value="Implemented a mechanism for checking whether the pins are vertical" />
     <MESSAGE value="Implemented a mechanism that counts the pins that are standing and displays the number on the UI.&#10;The verticality is not calculated correctly though" />
     <MESSAGE value="Fixed the bug where pins were considered fallen because of negative tilt angles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the bug where pins were considered fallen because of negative tilt angles" />
+    <MESSAGE value="Implemented mechanism for pin setter to detect if the ball has arrived to pins. The standing pin counter turns red, a flag is raised. Also fixed some bugs" />
+    <MESSAGE value="Unsaved scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unsaved scene" />
   </component>
 </project>
