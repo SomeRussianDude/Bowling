@@ -21,7 +21,7 @@ public class CameraControl : MonoBehaviour
 
     private void FollowBall()
     {
-        if (transform.position.z >= cameraStopPoint)
+        if (ball.transform.position.z >= cameraStopPoint)
         {
             return;
         }
