@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented a mechanism for definitive counting of the standing pins in case they wobble">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Swiper.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Swiper.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game In Cm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game In Cm.unity" afterDir="false" />
-    </list>
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scenes/Game In Cm.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Prefabs/Bowling Pin RotFix.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
@@ -233,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642693469797</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Created an animator with sub states to tidy and reset the pins">
+      <created>1642699124103</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642699124103</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +292,7 @@
     <MESSAGE value="Unsaved scene" />
     <MESSAGE value="Reorganized pins moving the components to single object and turning them 270 degrees" />
     <MESSAGE value="Implemented a mechanism for definitive counting of the standing pins in case they wobble" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a mechanism for definitive counting of the standing pins in case they wobble" />
+    <MESSAGE value="Created an animator with sub states to tidy and reset the pins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an animator with sub states to tidy and reset the pins" />
   </component>
 </project>
