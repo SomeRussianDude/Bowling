@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Created the motion in the Swipe animation for the Swiper">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Created two buttons on the UI and connected them to the animator to trigger the sub-states">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Pin Setter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Pin Setter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/d3/e824502f/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scenes/Game In Cm.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
   <component name="ProjectViewState">
@@ -80,7 +83,7 @@
       <workItem from="1642604889714" duration="1445000" />
       <workItem from="1642613613281" duration="3819000" />
       <workItem from="1642675128267" duration="1288000" />
-      <workItem from="1642771765984" duration="1213000" />
+      <workItem from="1642771765984" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -243,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642772376093</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Created two buttons on the UI and connected them to the animator to trigger the sub-states">
+      <created>1642784421076</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1642784421076</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +311,7 @@
     <MESSAGE value="Implemented a mechanism for definitive counting of the standing pins in case they wobble" />
     <MESSAGE value="Created an animator with sub states to tidy and reset the pins" />
     <MESSAGE value="Created the motion in the Swipe animation for the Swiper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the motion in the Swipe animation for the Swiper" />
+    <MESSAGE value="Created two buttons on the UI and connected them to the animator to trigger the sub-states" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created two buttons on the UI and connected them to the animator to trigger the sub-states" />
   </component>
 </project>
