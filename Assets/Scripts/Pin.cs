@@ -7,16 +7,6 @@ public class Pin : MonoBehaviour
     [SerializeField] private float standingThreshold = 3f;
     private float distanceToRaise = 0.4f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     public bool IsStanding()
     {
         var rotationInEuler = transform.rotation.eulerAngles;

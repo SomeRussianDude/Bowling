@@ -85,14 +85,6 @@ public class PinSetter : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        var otherObject = other.gameObject;
-        if (otherObject.GetComponent<Pin>())
-        {
-            Destroy(otherObject, 1f);
-        }
-    }
 
     public void RaisePins()
     {
