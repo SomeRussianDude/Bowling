@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PinSetter : MonoBehaviour
 {
     [SerializeField] private Text standingDisplay;
+    [SerializeField] private GameObject pinSet;
 
     private int lastStandingCount = -1;
     private bool ballEnteredBox;
@@ -113,6 +114,6 @@ public class PinSetter : MonoBehaviour
 
     public void RenewPins()
     {
-        print("New pins have been delivered");
+        Instantiate(pinSet, new Vector3(0, 0, 18.29f), Quaternion.identity);
     }
 }
