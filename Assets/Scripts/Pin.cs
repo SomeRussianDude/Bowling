@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pin : MonoBehaviour
 {
     [SerializeField] private float standingThreshold = 3f;
+    private float distanceToRaise = 0.4f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,5 +33,20 @@ public class Pin : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public void Raise()
+    {
+        if (IsStanding())
+        {
+            GetComponent<Rigidbody>().useGravity = false;
+            transform.Translate(0, distanceToRaise, 0);
+        }
+    }
+
+    public void Lower()
+    {
+        transform.Translate(0, -distanceToRaise, 0);
+        GetComponent<Rigidbody>().useGravity = true;
     }
 }

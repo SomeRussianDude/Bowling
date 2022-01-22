@@ -11,7 +11,6 @@ public class PinSetter : MonoBehaviour
     private int lastStandingCount = -1;
     private bool ballEnteredBox;
     private float lastChangeTime;
-    private float distanceToRaise = 0.4f;
     private Ball ball;
 
     public int LastStandingCount => lastStandingCount;
@@ -99,8 +98,7 @@ public class PinSetter : MonoBehaviour
         Pin[] pins = FindObjectsOfType<Pin>();
         foreach (var pin in pins)
         {
-            pin.GetComponent<Rigidbody>().useGravity = false;
-            pin.transform.Translate(0, distanceToRaise, 0);
+            pin.Raise();
         }
     }
 
@@ -109,8 +107,7 @@ public class PinSetter : MonoBehaviour
         Pin[] pins = FindObjectsOfType<Pin>();
         foreach (var pin in pins)
         {
-            pin.transform.Translate(0, -distanceToRaise, 0);
-            pin.GetComponent<Rigidbody>().useGravity = false;
+            pin.Lower();
         }
     }
 
