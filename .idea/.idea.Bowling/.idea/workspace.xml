@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented EndGame action after the last frame">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented Reset action in case of spare in the last frame">
       <change beforePath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1642675128267" duration="1288000" />
       <workItem from="1642771765984" duration="5724000" />
       <workItem from="1642870031006" duration="11403000" />
-      <workItem from="1643027757679" duration="1107000" />
+      <workItem from="1643027757679" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643028395911</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Implemented Reset action in case of spare in the last frame">
+      <created>1643029133582</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1643029133582</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +331,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added a ball with a rigid body and a script to give it initial velocity" />
     <MESSAGE value="Camera is now following the ball to the pins and stops at the first pin position" />
     <MESSAGE value="Made prefabs and reorganized the hierarchy + adjusted physics a bit" />
     <MESSAGE value="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen" />
@@ -350,6 +355,7 @@
     <MESSAGE value="Implemented the pin reset mechanism" />
     <MESSAGE value="Refactored pin destruction" />
     <MESSAGE value="Implemented EndGame action after the last frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented EndGame action after the last frame" />
+    <MESSAGE value="Implemented Reset action in case of spare in the last frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Reset action in case of spare in the last frame" />
   </component>
 </project>

@@ -23,6 +23,12 @@ public class ActionMaster
         }
 
         bowls[bowl] = pins;
+
+        if (bowl == 19 && pins == 10)
+        {
+            bowl += 2;
+            return Action.Reset;
+        }
         if (bowl == 20 && pins + bowls[bowl - 1] == 10)
         {
             bowl++;

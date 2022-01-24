@@ -62,4 +62,14 @@ public class ActionMasterTest
         }
         Assert.AreEqual(reset,actionMaster.Bowl(8));
     }
+
+    [Test]
+    public void T06Bowl_LastFrameStrike_ReturnsReset()
+    {
+        for (int i = 0; i < 18; i++)
+        {
+            actionMaster.Bowl(2);
+        }
+        Assert.AreEqual(reset, actionMaster.Bowl(10));
+    }
 }
