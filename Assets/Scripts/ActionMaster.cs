@@ -23,6 +23,10 @@ public class ActionMaster
         }
 
         bowls[bowl] = pins;
+        if (bowl == 20)
+        {
+            return Action.EndGame;
+        }
         if (pins == 10)
         {
             bowl += 2;
