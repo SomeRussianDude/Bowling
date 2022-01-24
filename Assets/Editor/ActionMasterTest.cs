@@ -72,4 +72,29 @@ public class ActionMasterTest
         }
         Assert.AreEqual(reset, actionMaster.Bowl(10));
     }
+
+    [Test]
+    public void T07Bowl_FirstBonusBowl_ReturnsReset()
+    {
+        for (int i = 0; i < 18; i++)
+        {
+            actionMaster.Bowl(2);
+        }
+
+        actionMaster.Bowl(10);
+        Assert.AreEqual(reset, actionMaster.Bowl(4));
+    }
+
+    [Test]
+    public void T08Bowl_SecondBonusBowl_ReturnsEndGame()
+    {
+        for (int i = 0; i < 18; i++)
+        {
+            actionMaster.Bowl(2);
+        }
+
+        actionMaster.Bowl(10);
+        actionMaster.Bowl(10);
+        Assert.AreEqual(endGame, actionMaster.Bowl(4));
+    }
 }

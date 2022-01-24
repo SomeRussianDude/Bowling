@@ -12,8 +12,8 @@ public class ActionMaster
         EndGame
     }
 
-    private int[] bowls = new int[22];
-    private int bowl = 1;
+    private int[] rolls = new int[23];
+    private int roll = 1;
 
     public Action Bowl(int pins)
     {
@@ -22,38 +22,48 @@ public class ActionMaster
             throw new UnityException("Invalid number of pins");
         }
 
-        bowls[bowl] = pins;
+        rolls[roll] = pins;
 
-        if (bowl == 19 && pins == 10)
+        if (roll == 22)
         {
-            bowl += 2;
+            return Action.EndGame;
+        }
+        if (roll == 21)
+        {
+            roll++;
             return Action.Reset;
         }
-        if (bowl == 20 && pins + bowls[bowl - 1] == 10)
+
+        if (roll == 19 && pins == 10)
         {
-            bowl++;
+            roll += 2;
+            return Action.Reset;
+        }
+        if (roll == 20 && pins + rolls[roll - 1] == 10)
+        {
+            roll++;
             return Action.Reset;
         }
         
-        if (bowl == 20)
+        if (roll == 20)
         {
             return Action.EndGame;
         }
         if (pins == 10)
         {
-            bowl += 2;
+            roll += 2;
             return Action.EndTurn;
         }
 
-        if (bowl % 2 != 0)
+        if (roll % 2 != 0)
         {
-            bowl++;
+            roll++;
             return Action.Tidy;
         }
 
-        if (bowl % 2 == 0)
+        if (roll % 2 == 0)
         {
-            bowl++;
+            roll++;
             return Action.EndTurn;
         }
 
