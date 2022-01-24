@@ -11,7 +11,7 @@ public class ActionMasterTest
     private ActionMaster.Action endTurn = ActionMaster.Action.EndTurn;
     private ActionMaster.Action tidy = ActionMaster.Action.Tidy;
     private ActionMaster.Action endGame = ActionMaster.Action.EndGame;
-    // private ActionMaster.Action reset = ActionMaster.Action.Reset;
+    private ActionMaster.Action reset = ActionMaster.Action.Reset;
 
     [SetUp]
     public void Setup()
@@ -51,5 +51,15 @@ public class ActionMasterTest
         }
 
         Assert.AreEqual(endGame, actionMaster.Bowl(2));
+    }
+
+    [Test]
+    public void T05Bowl_LastFrameSpare_ReturnsReset()
+    {
+        for (int i = 0; i < 19; i++)
+        {
+            actionMaster.Bowl(2);
+        }
+        Assert.AreEqual(reset,actionMaster.Bowl(8));
     }
 }

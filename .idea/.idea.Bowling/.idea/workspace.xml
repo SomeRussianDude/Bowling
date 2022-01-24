@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented EndGame action after the last frame">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <workItem from="1642675128267" duration="1288000" />
       <workItem from="1642771765984" duration="5724000" />
       <workItem from="1642870031006" duration="11403000" />
-      <workItem from="1643027757679" duration="373000" />
+      <workItem from="1643027757679" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642872978591</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Implemented EndGame action after the last frame">
+      <created>1643028395911</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1643028395911</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +325,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Reorganized the pins in the hierarchy" />
     <MESSAGE value="Added a ball with a rigid body and a script to give it initial velocity" />
     <MESSAGE value="Camera is now following the ball to the pins and stops at the first pin position" />
     <MESSAGE value="Made prefabs and reorganized the hierarchy + adjusted physics a bit" />
@@ -343,6 +349,7 @@
     <MESSAGE value="Refactored the raising and lowering methods to include them in the pin script instead of the pinsetter" />
     <MESSAGE value="Implemented the pin reset mechanism" />
     <MESSAGE value="Refactored pin destruction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored pin destruction" />
+    <MESSAGE value="Implemented EndGame action after the last frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented EndGame action after the last frame" />
   </component>
 </project>
