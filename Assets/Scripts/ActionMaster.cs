@@ -44,7 +44,7 @@ public class ActionMaster
         else if (FirstBonusFrame() && pins == 10)
         {
             roll++;
-            return Action.EndTurn;
+            return Action.Reset;
         }
 
         //Single bonus frame returns EndGame

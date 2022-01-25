@@ -113,7 +113,7 @@ public class ActionMasterTest
     }
 
     [Test]
-    public void T10Bowl_FirstBonusStrike_ReturnsEndTurn()
+    public void T10Bowl_FirstBonusStrike_ReturnsReset()
     {
         for (int i = 0; i < 18; i++)
         {
@@ -121,7 +121,7 @@ public class ActionMasterTest
         }
 
         actionMaster.Bowl(10);
-        Assert.AreEqual(endTurn, actionMaster.Bowl(10));
+        Assert.AreEqual(reset, actionMaster.Bowl(10));
 
     }
 }
