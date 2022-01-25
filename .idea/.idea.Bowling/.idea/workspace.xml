@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Changed first bonus strike return to Reset">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
       <workItem from="1642675128267" duration="1288000" />
       <workItem from="1642771765984" duration="5724000" />
       <workItem from="1642870031006" duration="11403000" />
-      <workItem from="1643027757679" duration="13407000" />
+      <workItem from="1643027757679" duration="15060000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643119109474</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Changed first bonus strike return to Reset">
+      <created>1643119953851</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1643119953851</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +362,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implemented simple touch control for launching the ball" />
     <MESSAGE value="Added arrows to move the start point of the Ball, attached a method to move the ball. Doesn't work, don't understand why" />
     <MESSAGE value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
     <MESSAGE value="Created an object swiper for future animation" />
@@ -379,6 +386,7 @@
     <MESSAGE value="Implemented Reset in case of strike in the last frame" />
     <MESSAGE value="Implemented Reset action after the first bonus roll and EndGame after the second" />
     <MESSAGE value="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy" />
+    <MESSAGE value="Changed first bonus strike return to Reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed first bonus strike return to Reset" />
   </component>
 </project>

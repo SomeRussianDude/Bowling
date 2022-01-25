@@ -19,6 +19,7 @@ public class ActionMaster
     {
         return (roll == 21 && rolls[19] == 10 );
     }
+
     
     public Action Bowl(int pins)
     {
@@ -75,7 +76,7 @@ public class ActionMaster
         }
 
         //Strike returns EndTurn
-        if (pins == 10)
+        if (roll % 2 != 0 && pins == 10)
         {
             roll += 2;
             return Action.EndTurn;

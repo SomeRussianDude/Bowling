@@ -84,7 +84,7 @@ public class ActionMasterTest
         }
 
         actionMaster.Bowl(10);
-        Assert.AreEqual(tidy, actionMaster.Bowl(4));
+        Assert.AreEqual(tidy, actionMaster.Bowl(0));
     }
 
     [Test]
@@ -122,6 +122,29 @@ public class ActionMasterTest
 
         actionMaster.Bowl(10);
         Assert.AreEqual(reset, actionMaster.Bowl(10));
+    }
 
+    [Test]
+    public void T11Bowl_TheRollPrecededBySecondDelivery10_ReturnsTidy()
+    {
+        actionMaster.Bowl(0);
+        actionMaster.Bowl(10);
+        Assert.AreEqual(tidy, actionMaster.Bowl(1));
+    }
+
+    [Test]
+    public void T12Dondi10thFrameTurkey()
+    {
+        int[] rolls = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        foreach
+        (int roll in rolls)
+        {
+            actionMaster.Bowl
+                (roll);
+        }
+
+        Assert.AreEqual(reset, actionMaster.Bowl(10));
+        Assert.AreEqual(reset, actionMaster.Bowl(10));
+        Assert.AreEqual(endGame, actionMaster.Bowl(10));
     }
 }
