@@ -19,7 +19,7 @@ public class PinSetter : MonoBehaviour
     private Animator animator;
 
     public int LastStandingCount => lastStandingCount;
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -105,22 +105,12 @@ public class PinSetter : MonoBehaviour
         return pinsStanding;
     }
 
-    
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     var otherObject = other.gameObject;
-    //     if (otherObject.GetComponent<Ball>())
-    //     {
-    //         ballLeftBox = true;
-    //         standingDisplay.color = Color.red;
-    //     }
-    // }
-
     public void BallLeftBox()
     {
         ballLeftBox = true;
         standingDisplay.color = Color.red;
     }
+
     public void RaisePins()
     {
         Pin[] pins = FindObjectsOfType<Pin>();
