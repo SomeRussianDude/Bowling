@@ -10,9 +10,13 @@ public class PinSetter : MonoBehaviour
     [SerializeField] private GameObject pinSet;
 
     private int lastStandingCount = -1;
+    private int lastSettledCount = 10;
+    private int pinsFallen = 0;
     private bool ballEnteredBox;
     private float lastChangeTime;
     private Ball ball;
+    private ActionMaster actionMaster;
+    private Animator animator;
 
     public int LastStandingCount => lastStandingCount;
 
@@ -21,6 +25,8 @@ public class PinSetter : MonoBehaviour
     {
         ballEnteredBox = false;
         ball = FindObjectOfType<Ball>();
+        actionMaster = new ActionMaster();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -53,10 +59,31 @@ public class PinSetter : MonoBehaviour
 
     private void PinsHaveSettled()
     {
+        pinsFallen = lastSettledCount - CountStanding();
+        lastSettledCount = CountStanding();
+        AnimatorAction(actionMaster.Bowl(pinsFallen));
         ball.Reset();
         lastStandingCount = -1;
         ballEnteredBox = false;
         standingDisplay.color = Color.green;
+    }
+
+    private void AnimatorAction(ActionMaster.Action action)
+    {
+        switch (action)
+        {
+            case ActionMaster.Action.Tidy:
+                animator.SetTrigger("tidyTrigger");
+                break;
+            case ActionMaster.Action.EndTurn:
+                animator.SetTrigger("resetTrigger");
+                break;
+            case ActionMaster.Action.Reset:
+                animator.SetTrigger("resetTrigger");
+                break;
+            case ActionMaster.Action.EndGame:
+                throw new UnityException("Game ending not yet implemented");
+        }
     }
 
 
