@@ -12,18 +12,19 @@ public class PinSetter : MonoBehaviour
     private int lastStandingCount = -1;
     private int lastSettledCount = 10;
     private int pinsFallen = 0;
-    private bool ballEnteredBox;
+    private bool ballLeftBox;
     private float lastChangeTime;
     private Ball ball;
     private ActionMaster actionMaster;
     private Animator animator;
 
     public int LastStandingCount => lastStandingCount;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        ballEnteredBox = false;
+        ballLeftBox = false;
         ball = FindObjectOfType<Ball>();
         actionMaster = new ActionMaster();
         animator = GetComponent<Animator>();
@@ -34,7 +35,7 @@ public class PinSetter : MonoBehaviour
     {
         standingDisplay.text = CountStanding().ToString();
 
-        if (ballEnteredBox)
+        if (ballLeftBox)
         {
             CheckStanding();
         }
@@ -64,7 +65,7 @@ public class PinSetter : MonoBehaviour
         AnimatorAction(actionMaster.Bowl(pinsFallen));
         ball.Reset();
         lastStandingCount = -1;
-        ballEnteredBox = false;
+        ballLeftBox = false;
         standingDisplay.color = Color.green;
     }
 
@@ -104,17 +105,22 @@ public class PinSetter : MonoBehaviour
         return pinsStanding;
     }
 
-    private void OnTriggerEnter(Collider other)
+    
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     var otherObject = other.gameObject;
+    //     if (otherObject.GetComponent<Ball>())
+    //     {
+    //         ballLeftBox = true;
+    //         standingDisplay.color = Color.red;
+    //     }
+    // }
+
+    public void BallLeftBox()
     {
-        var otherObject = other.gameObject;
-        if (otherObject.GetComponent<Ball>())
-        {
-            ballEnteredBox = true;
-            standingDisplay.color = Color.red;
-        }
+        ballLeftBox = true;
+        standingDisplay.color = Color.red;
     }
-
-
     public void RaisePins()
     {
         Pin[] pins = FindObjectsOfType<Pin>();
