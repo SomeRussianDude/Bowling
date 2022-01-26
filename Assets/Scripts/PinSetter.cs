@@ -77,9 +77,11 @@ public class PinSetter : MonoBehaviour
                 break;
             case ActionMaster.Action.EndTurn:
                 animator.SetTrigger("resetTrigger");
+                lastSettledCount = 10;
                 break;
             case ActionMaster.Action.Reset:
                 animator.SetTrigger("resetTrigger");
+                lastSettledCount = 10;
                 break;
             case ActionMaster.Action.EndGame:
                 throw new UnityException("Game ending not yet implemented");

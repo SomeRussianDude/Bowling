@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" afterDir="false" />
     </list>
@@ -23,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scenes/Game In Cm.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,7 +88,7 @@
       <workItem from="1642771765984" duration="5724000" />
       <workItem from="1642870031006" duration="11403000" />
       <workItem from="1643027757679" duration="15866000" />
-      <workItem from="1643196731516" duration="1807000" />
+      <workItem from="1643196731516" duration="2670000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -334,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643121762143</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted">
+      <created>1643198757370</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1643198757370</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +377,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Fixed the bug - the arrows now work to move the ball. Also introduced a bool to check if the ball has been launched so that you can't adjust it with arrows after the launch" />
     <MESSAGE value="Created an object swiper for future animation" />
     <MESSAGE value="Attempts at physics bug fixing. The Swiper now pushes the pins off. But the ball still doesn't blow them off the floor" />
     <MESSAGE value="Created a new Scene where everything is scaled to centimeters" />
@@ -394,6 +401,7 @@
     <MESSAGE value="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy" />
     <MESSAGE value="Changed first bonus strike return to Reset" />
     <MESSAGE value="Made sure 0+10 spare isn't counted as a strike + checked a community test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made sure 0+10 spare isn't counted as a strike + checked a community test" />
+    <MESSAGE value="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted" />
   </component>
 </project>
