@@ -10,9 +10,9 @@ public class Pin : MonoBehaviour
     public bool IsStanding()
     {
         var rotationInEuler = transform.rotation.eulerAngles;
-        
+
         var tiltInX = Mathf.Abs(rotationInEuler.x);
-        tiltInX = tiltInX < 180 ? tiltInX : 360 - tiltInX; 
+        tiltInX = tiltInX < 180 ? tiltInX : 360 - tiltInX;
         var tiltInZ = Mathf.Abs(rotationInEuler.z);
         tiltInZ = tiltInZ < 180 ? tiltInZ : 360 - tiltInZ;
         if (tiltInX < standingThreshold && tiltInZ < standingThreshold)
@@ -31,13 +31,13 @@ public class Pin : MonoBehaviour
         {
             GetComponent<Rigidbody>().useGravity = false;
             transform.Translate(0, distanceToRaise, 0);
+            transform.rotation = Quaternion.identity;
         }
     }
 
     public void Lower()
     {
         transform.Translate(0, -distanceToRaise, 0);
-        transform.rotation = Quaternion.identity;
         GetComponent<Rigidbody>().useGravity = true;
     }
 }

@@ -20,8 +20,20 @@ public class ActionMaster
         return (roll == 21 && rolls[19] == 10 );
     }
 
+    public static Action NextAction(List<int> pinFalls)
+    {
+        ActionMaster am = new ActionMaster();
+        Action currentAction = new Action();
+
+        foreach (int pinFall in pinFalls)
+        {
+            currentAction = am.Bowl(pinFall);
+        }
+
+        return currentAction;
+    }
     
-    public Action Bowl(int pins)
+    public Action Bowl(int pins) //!!!!make private!!!!
     {
         if (pins < 0 || pins > 10)
         {
