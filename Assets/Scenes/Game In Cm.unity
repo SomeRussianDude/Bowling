@@ -996,6 +996,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031546342}
   m_CullTransparentMesh: 1
+--- !u!1 &1232700361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1232700363}
+  - component: {fileID: 1232700362}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1232700362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232700361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ad473edbfa7a644d8f14439d7d0a8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1232700363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232700361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1275697082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,7 +1287,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1486435039}
   - component: {fileID: 1486435041}
-  - component: {fileID: 1486435040}
   - component: {fileID: 1486435042}
   m_Layer: 0
   m_Name: Lane Collider
@@ -1267,18 +1309,6 @@ Transform:
   m_Father: {fileID: 445499738}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1486435040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486435038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80ecd4c49f3a35e488decd5574f3364b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1486435041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1304,6 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f8d998de7bd2f44900dd926cb04fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standingDisplay: {fileID: 1014948603}
 --- !u!1 &1834974772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6220acd8612a3404285a55cc6a70c10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standingDisplay: {fileID: 1014948603}
   pinSet: {fileID: 6975731682153176634, guid: 1e2140a0a30ddb04c9ee7186639a6d04, type: 3}
 --- !u!65 &1905251036
 BoxCollider:
