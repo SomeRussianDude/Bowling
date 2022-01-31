@@ -22,14 +22,23 @@ public class ScoreMaster
     // Returns a list of individual frame scores
     public static List<int> ScoreFrames(List<int> rolls)
     {
-        var currentFrame = 0;
+        var currentFrameScore = 0;
         var currentRoll = 1;
-        List<int> frameList = new List<int>() {0};
+
+        List<int> frameList = new List<int>();
+        
         foreach (var roll in rolls)
         {
-            if (currentRoll % 2 != 0)
+            currentFrameScore += roll;
+            if (currentRoll % 2 == 0)
             {
-                frameList[currentFrame] += roll;
+                currentRoll++;
+                frameList.Add(currentFrameScore);
+                currentFrameScore = 0;
+            }
+            else
+            {
+                currentRoll++;
             }
         }
 
