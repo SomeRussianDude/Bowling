@@ -35,7 +35,8 @@ public class ScoreMaster
                 currentRoll += 2;
                 break;
             }
-            if (currentRoll % 2 == 0)
+
+            if (currentRoll % 2 == 0 && currentFrameScore < 10)
             {
                 currentRoll++;
                 frameList.Add(currentFrameScore);
