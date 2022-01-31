@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Test 01 passed">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Tests 4 through 6 passed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" afterDir="false" />
@@ -104,7 +104,7 @@
       <workItem from="1643027757679" duration="15866000" />
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
-      <workItem from="1643629839778" duration="6408000" />
+      <workItem from="1643629839778" duration="7467000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -407,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643642187977</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Tests 02 and 03 passed">
+      <created>1643643929002</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1643643929002</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Tests 4 through 6 passed">
+      <created>1643643999165</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1643643999165</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,8 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Unsaved scene" />
-    <MESSAGE value="Reorganized pins moving the components to single object and turning them 270 degrees" />
     <MESSAGE value="Implemented a mechanism for definitive counting of the standing pins in case they wobble" />
     <MESSAGE value="Created an animator with sub states to tidy and reset the pins" />
     <MESSAGE value="Created the motion in the Swipe animation for the Swiper" />
@@ -467,6 +479,8 @@
     <MESSAGE value="Refactored the ActionMaster to take in a list of pin falls from future Pin Counter. Also refactored the ActionMaster tests to work with the new structure" />
     <MESSAGE value="Got everything ready to start creating a working ScoreMaster through TDD" />
     <MESSAGE value="Test 01 passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 01 passed" />
+    <MESSAGE value="Tests 02 and 03 passed" />
+    <MESSAGE value="Tests 4 through 6 passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests 4 through 6 passed" />
   </component>
 </project>

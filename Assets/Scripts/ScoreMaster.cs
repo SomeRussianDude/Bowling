@@ -30,6 +30,11 @@ public class ScoreMaster
         foreach (var roll in rolls)
         {
             currentFrameScore += roll;
+            if (currentRoll % 2 != 0 && roll == 10)
+            {
+                currentRoll += 2;
+                break;
+            }
             if (currentRoll % 2 == 0)
             {
                 currentRoll++;
