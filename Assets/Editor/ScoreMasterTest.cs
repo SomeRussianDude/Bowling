@@ -159,7 +159,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// // http://slocums.homestead.com/gamescore.html
+	// http://slocums.homestead.com/gamescore.html
 	// [Test]
 	// [Category ("Verification")]
 	// public void TG02GoldenCopyA () {
@@ -168,7 +168,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// //http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
+	//http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
 	// [Category ("Verification")]
 	// [Test]
 	// public void TG03GoldenCopyB1of3 () {
@@ -177,7 +177,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// //http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
+	//http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
 	// [Category ("Verification")]
 	// [Test]
 	// public void TG03GoldenCopyB2of3 () {
@@ -186,7 +186,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// //http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
+	//http://guttertoglory.com/wp-content/uploads/2011/11/score-2011_11_28.png
 	// [Category ("Verification")]
 	// [Test]
 	// public void TG03GoldenCopyB3of3 () {
@@ -195,7 +195,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// // http://brownswick.com/wp-content/uploads/2012/06/OpenBowlingScores-6-12-12.jpg
+	// http://brownswick.com/wp-content/uploads/2012/06/OpenBowlingScores-6-12-12.jpg
 	// [Category ("Verification")]
 	// [Test]
 	// public void TG03GoldenCopyC1of3 () {
@@ -204,7 +204,7 @@ public class ScoreMasterTest {
 	// 	Assert.AreEqual (totalS.ToList(), ScoreMaster.ScoreCumulative (rolls.ToList()));
 	// }
 	//
-	// // http://brownswick.com/wp-content/uploads/2012/06/OpenBowlingScores-6-12-12.jpg
+	// http://brownswick.com/wp-content/uploads/2012/06/OpenBowlingScores-6-12-12.jpg
 	// [Category ("Verification")]
 	// [Test]
 	// public void TG03GoldenCopyC2of3 () {

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Got everything ready to start creating a working ScoreMaster through TDD">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/ff/db3e712f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/d3/e824502f/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/ScoreMaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
@@ -101,7 +103,7 @@
       <workItem from="1643027757679" duration="15866000" />
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
-      <workItem from="1643629839778" duration="1707000" />
+      <workItem from="1643629839778" duration="4706000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -390,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643295757236</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Got everything ready to start creating a working ScoreMaster through TDD">
+      <created>1643638601748</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1643638601748</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Fixed the bug where pins were considered fallen because of negative tilt angles" />
     <MESSAGE value="Implemented mechanism for pin setter to detect if the ball has arrived to pins. The standing pin counter turns red, a flag is raised. Also fixed some bugs" />
     <MESSAGE value="Unsaved scene" />
     <MESSAGE value="Reorganized pins moving the components to single object and turning them 270 degrees" />
@@ -450,6 +458,7 @@
     <MESSAGE value="Deleted some excess lines" />
     <MESSAGE value="Bug fixing: rotation of pins and the ball is reset upon reset of position,Ball  prefab updated. + Created ScoreMaster class" />
     <MESSAGE value="Refactored the ActionMaster to take in a list of pin falls from future Pin Counter. Also refactored the ActionMaster tests to work with the new structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the ActionMaster to take in a list of pin falls from future Pin Counter. Also refactored the ActionMaster tests to work with the new structure" />
+    <MESSAGE value="Got everything ready to start creating a working ScoreMaster through TDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got everything ready to start creating a working ScoreMaster through TDD" />
   </component>
 </project>
