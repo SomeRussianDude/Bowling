@@ -24,7 +24,7 @@ public class ScoreMaster
     {
         var currentFrameScore = 0;
         var currentRoll = 1;
-        
+
         List<int> frameList = new List<int>();
 
         for (var index = 0; index < rolls.Count; index++)
@@ -38,9 +38,9 @@ public class ScoreMaster
                 frameList.Add(currentFrameScore);
                 break;
             }
-            
+
             // Strike bonus situations handling 
-            if (currentRoll % 2 != 0 && rolls[index] == 10 && index +2 < rolls.Count)
+            if (currentRoll % 2 != 0 && rolls[index] == 10 && index + 2 < rolls.Count)
             {
                 currentRoll += 2;
                 currentFrameScore += rolls[index + 1] + rolls[index + 2];
@@ -50,7 +50,7 @@ public class ScoreMaster
             }
 
             // Spare bonus situations handling
-            if (currentRoll % 2 == 0 && currentFrameScore == 10 && index+1 < rolls.Count)
+            if (currentRoll % 2 == 0 && currentFrameScore == 10 && index + 1 < rolls.Count)
             {
                 currentRoll++;
                 currentFrameScore += rolls[index + 1];
@@ -74,4 +74,12 @@ public class ScoreMaster
 
         return frameList;
     }
+
+    // A method to return the maximum possible score in the game based on the rolls
+    // public static int MaxScore(List<int> rolls)
+    // {
+    //     int maxScore = 300;
+    //     
+    //     return maxScore;
+    // }
 }

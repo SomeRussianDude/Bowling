@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Strike in the last frame test passed">
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="All tests passed">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +102,7 @@
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
       <workItem from="1643629839778" duration="7792000" />
-      <workItem from="1643721623839" duration="3814000" />
-    </task>
-    <task id="LOCAL-00007" summary="Made prefabs and reorganized the hierarchy + adjusted physics a bit">
-      <created>1642164035744</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1642164035744</updated>
+      <workItem from="1643721623839" duration="5906000" />
     </task>
     <task id="LOCAL-00008" summary="Added basic UI: canvas, panels and a top-view camera broadcasting the top view onto the screen">
       <created>1642165384049</created>
@@ -446,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643725245559</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="All tests passed">
+      <created>1643725542599</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1643725542599</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implemented Reset in case of strike in the last frame" />
     <MESSAGE value="Implemented Reset action after the first bonus roll and EndGame after the second" />
     <MESSAGE value="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy" />
     <MESSAGE value="Changed first bonus strike return to Reset" />
@@ -506,6 +506,7 @@
     <MESSAGE value="Multi Strike tests passed" />
     <MESSAGE value="Tests 16 through 20 passed (including last frame spare bonus)" />
     <MESSAGE value="Strike in the last frame test passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strike in the last frame test passed" />
+    <MESSAGE value="All tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests passed" />
   </component>
 </project>
