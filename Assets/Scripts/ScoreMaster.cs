@@ -24,18 +24,28 @@ public class ScoreMaster
     {
         var currentFrameScore = 0;
         var currentRoll = 1;
-
+        
         List<int> frameList = new List<int>();
 
         for (var index = 0; index < rolls.Count; index++)
         {
             currentFrameScore += rolls[index];
+            
             if (currentRoll % 2 != 0 && rolls[index] == 10)
             {
                 currentRoll += 2;
-                break;
+                continue;
             }
 
+            // Spare bonus handling
+            if (currentRoll % 2 == 0 && currentFrameScore == 10 && index+1 < rolls.Count)
+            {
+                currentRoll++;
+                currentFrameScore += rolls[index + 1];
+                frameList.Add(currentFrameScore);
+                currentFrameScore = 0;
+                continue;
+            }
 
             if (currentRoll % 2 == 0 && currentFrameScore < 10)
             {

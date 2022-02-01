@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Refactored Score Master to use FOR loop to have control over its elements in future.&#10;Also, hid Action Master tests to not distract me">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
       <workItem from="1643629839778" duration="7792000" />
-      <workItem from="1643721623839" duration="299000" />
+      <workItem from="1643721623839" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="Initial  commit">
       <created>1641991952292</created>
@@ -434,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643645522924</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Refactored Score Master to use FOR loop to have control over its elements in future.&#10;Also, hid Action Master tests to not distract me">
+      <created>1643722177997</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1643722177997</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +475,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Created the motion in the Swipe animation for the Swiper" />
     <MESSAGE value="Created two buttons on the UI and connected them to the animator to trigger the sub-states" />
     <MESSAGE value="Created motions for all events that call the respective methods. Lower and Raise already work but not prettily" />
     <MESSAGE value="Refactored the raising and lowering methods to include them in the pin script instead of the pinsetter" />
@@ -494,6 +499,7 @@
     <MESSAGE value="Tests 4 through 6 passed" />
     <MESSAGE value="Test 07 (first strike) passed" />
     <MESSAGE value="Test 08 (first spare) passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test 08 (first spare) passed" />
+    <MESSAGE value="Refactored Score Master to use FOR loop to have control over its elements in future.&#10;Also, hid Action Master tests to not distract me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Score Master to use FOR loop to have control over its elements in future.&#10;Also, hid Action Master tests to not distract me" />
   </component>
 </project>
