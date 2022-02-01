@@ -30,6 +30,14 @@ public class ScoreMaster
         for (var index = 0; index < rolls.Count; index++)
         {
             currentFrameScore += rolls[index];
+
+            // Strike in last frame situations handling
+            if (currentRoll == 19 && rolls[index] == 10)
+            {
+                currentFrameScore += rolls[index + 1] + rolls[index + 2];
+                frameList.Add(currentFrameScore);
+                break;
+            }
             
             // Strike bonus situations handling 
             if (currentRoll % 2 != 0 && rolls[index] == 10 && index +2 < rolls.Count)

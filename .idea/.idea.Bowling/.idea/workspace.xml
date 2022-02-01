@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Multi Strike tests passed">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Tests 16 through 20 passed (including last frame spare bonus)">
       <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" afterDir="false" />
     </list>
@@ -103,14 +102,7 @@
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
       <workItem from="1643629839778" duration="7792000" />
-      <workItem from="1643721623839" duration="3049000" />
-    </task>
-    <task id="LOCAL-00005" summary="Added a ball with a rigid body and a script to give it initial velocity">
-      <created>1642081351447</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1642081351447</updated>
+      <workItem from="1643721623839" duration="3478000" />
     </task>
     <task id="LOCAL-00006" summary="Camera is now following the ball to the pins and stops at the first pin position">
       <created>1642083384516</created>
@@ -448,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643724300068</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Tests 16 through 20 passed (including last frame spare bonus)">
+      <created>1643724701048</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1643724701048</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implemented EndGame action after the last frame" />
     <MESSAGE value="Implemented Reset action in case of spare in the last frame" />
     <MESSAGE value="Implemented Reset in case of strike in the last frame" />
     <MESSAGE value="Implemented Reset action after the first bonus roll and EndGame after the second" />
@@ -508,6 +506,7 @@
     <MESSAGE value="First Strike Bonus test passed" />
     <MESSAGE value="Second Strike Bonus test passed" />
     <MESSAGE value="Multi Strike tests passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi Strike tests passed" />
+    <MESSAGE value="Tests 16 through 20 passed (including last frame spare bonus)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests 16 through 20 passed (including last frame spare bonus)" />
   </component>
 </project>
