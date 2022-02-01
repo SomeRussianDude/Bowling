@@ -31,6 +31,7 @@ public class ScoreMaster
         {
             currentFrameScore += rolls[index];
             
+            // Strike bonus situations handling 
             if (currentRoll % 2 != 0 && rolls[index] == 10 && index +2 < rolls.Count)
             {
                 currentRoll += 2;
@@ -40,7 +41,7 @@ public class ScoreMaster
                 continue;
             }
 
-            // Spare bonus handling
+            // Spare bonus situations handling
             if (currentRoll % 2 == 0 && currentFrameScore == 10 && index+1 < rolls.Count)
             {
                 currentRoll++;
@@ -50,6 +51,7 @@ public class ScoreMaster
                 continue;
             }
 
+            // Regular roll situations
             if (currentRoll % 2 == 0 && currentFrameScore < 10)
             {
                 currentRoll++;
