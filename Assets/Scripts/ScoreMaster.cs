@@ -31,9 +31,12 @@ public class ScoreMaster
         {
             currentFrameScore += rolls[index];
             
-            if (currentRoll % 2 != 0 && rolls[index] == 10)
+            if (currentRoll % 2 != 0 && rolls[index] == 10 && index +2 < rolls.Count)
             {
                 currentRoll += 2;
+                currentFrameScore += rolls[index + 1] + rolls[index + 2];
+                frameList.Add(currentFrameScore);
+                currentFrameScore = 0;
                 continue;
             }
 
