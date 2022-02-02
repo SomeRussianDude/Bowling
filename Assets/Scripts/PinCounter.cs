@@ -50,7 +50,7 @@ public class PinCounter : MonoBehaviour
             return;
         }
 
-        float settleTime = 3f;
+        float settleTime = 5f;
         if ((Time.time - lastChangeTime) > settleTime)
         {
             PinsHaveSettled();
