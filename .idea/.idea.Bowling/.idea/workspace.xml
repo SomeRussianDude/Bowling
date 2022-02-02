@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Tidying" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/ScoreMaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,14 +101,8 @@
       <workItem from="1643196731516" duration="4540000" />
       <workItem from="1643210677999" duration="8700000" />
       <workItem from="1643629839778" duration="7792000" />
-      <workItem from="1643721623839" duration="6682000" />
-    </task>
-    <task id="LOCAL-00009" summary="Implemented simple touch control for launching the ball">
-      <created>1642170499868</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1642170499868</updated>
+      <workItem from="1643721623839" duration="9439000" />
+      <workItem from="1643810146704" duration="361000" />
     </task>
     <task id="LOCAL-00010" summary="Added arrows to move the start point of the Ball, attached a method to move the ball. Doesn't work, don't understand why">
       <created>1642259375335</created>
@@ -445,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643728153266</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Refactoring">
+      <created>1643729496992</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1643729496992</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Implemented last bonus frame scenarios: frame 21 strike returns EndTurn, not Reset; frame 21 casual roll returns Tidy" />
     <MESSAGE value="Changed first bonus strike return to Reset" />
     <MESSAGE value="Made sure 0+10 spare isn't counted as a strike + checked a community test" />
     <MESSAGE value="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted" />
@@ -505,6 +506,7 @@
     <MESSAGE value="Strike in the last frame test passed" />
     <MESSAGE value="All tests passed" />
     <MESSAGE value="Tidying" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tidying" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>
