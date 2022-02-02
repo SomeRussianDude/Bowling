@@ -3275,6 +3275,7 @@ GameObject:
   - component: {fileID: 1569915788}
   - component: {fileID: 1569915790}
   - component: {fileID: 1569915789}
+  - component: {fileID: 1569915791}
   m_Layer: 5
   m_Name: Score Panel
   m_TagString: Untagged
@@ -3340,6 +3341,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569915787}
   m_CullTransparentMesh: 1
+--- !u!114 &1569915791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569915787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb052db5309f03b45a39cea2b8fe04c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bowls:
+  - {fileID: 1308221170}
+  - {fileID: 1400926161}
+  - {fileID: 32456575}
+  - {fileID: 1938802319}
+  - {fileID: 1850948228}
+  - {fileID: 989440051}
+  - {fileID: 990487425}
+  - {fileID: 2138685395}
+  - {fileID: 585998438}
+  - {fileID: 669334035}
+  - {fileID: 1432243108}
+  - {fileID: 1567494515}
+  - {fileID: 616258939}
+  - {fileID: 792257493}
+  - {fileID: 854591168}
+  - {fileID: 2012335886}
+  - {fileID: 934143709}
+  - {fileID: 2011258467}
+  - {fileID: 1069525410}
+  - {fileID: 1676081230}
+  - {fileID: 66053274}
+  frameScores:
+  - {fileID: 1849230044}
+  - {fileID: 2020482837}
+  - {fileID: 627124413}
+  - {fileID: 769593495}
+  - {fileID: 1228136093}
+  - {fileID: 1205935924}
+  - {fileID: 1462922169}
+  - {fileID: 1892379350}
+  - {fileID: 647446770}
+  - {fileID: 826341237}
 --- !u!1 &1590700855
 GameObject:
   m_ObjectHideFlags: 0
