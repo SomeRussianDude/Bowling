@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     public void Bowl(int pinFall)
     {
         bowls.Add(pinFall);
-        ActionMaster.Action nextAction = ActionMaster.NextAction(bowls);
+        ActionMasterOld.Action nextAction = ActionMasterOld.NextAction(bowls);
         pinSetter.PerformAction(nextAction);
         scoreDisplay.FillRollCard(bowls);
         ball.Reset();

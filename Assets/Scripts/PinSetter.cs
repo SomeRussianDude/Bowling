@@ -8,7 +8,7 @@ public class PinSetter : MonoBehaviour
 {
     [SerializeField] private GameObject pinSet;
 
-    private ActionMaster actionMaster;
+    private ActionMasterOld _actionMasterOld;
     private Animator animator;
     private PinCounter pinCounter;
 
@@ -16,7 +16,7 @@ public class PinSetter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        actionMaster = new ActionMaster();
+        _actionMasterOld = new ActionMasterOld();
         animator = GetComponent<Animator>();
         pinCounter = FindObjectOfType<PinCounter>();
     }
@@ -27,22 +27,22 @@ public class PinSetter : MonoBehaviour
     }
 
 
-    public void PerformAction(ActionMaster.Action action)
+    public void PerformAction(ActionMasterOld.Action action)
     {
         switch (action)
         {
-            case ActionMaster.Action.Tidy:
+            case ActionMasterOld.Action.Tidy:
                 animator.SetTrigger("tidyTrigger");
                 break;
-            case ActionMaster.Action.EndTurn:
+            case ActionMasterOld.Action.EndTurn:
                 animator.SetTrigger("resetTrigger");
                 pinCounter.LastSettledCount = 10;
                 break;
-            case ActionMaster.Action.Reset:
+            case ActionMasterOld.Action.Reset:
                 animator.SetTrigger("resetTrigger");
                 pinCounter.LastSettledCount = 10;
                 break;
-            case ActionMaster.Action.EndGame:
+            case ActionMasterOld.Action.EndGame:
                 throw new UnityException("Game ending not yet implemented");
         }
     }
