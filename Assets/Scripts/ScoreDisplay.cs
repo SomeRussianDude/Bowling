@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class ScoreDisplay : MonoBehaviour
 {
+    [SerializeField] private List<Text> rollsTexts;
 
-    [SerializeField] private List<Text> bowls;
+    [SerializeField] private List<Text> frameScoreTexts;
 
-    [SerializeField] private List<Text> frameScores;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class ScoreDisplay : MonoBehaviour
 
     private void EmptyFrameScores()
     {
-        foreach (var frame  in frameScores)
+        foreach (var frame in frameScoreTexts)
         {
             frame.text = " ";
         }
@@ -27,26 +27,55 @@ public class ScoreDisplay : MonoBehaviour
 
     private void EmptyRollCard()
     {
-        foreach (var text in bowls)
+        foreach (var text in rollsTexts)
         {
             text.text = " ";
         }
     }
+
     public void FillRollCard(List<int> rolls)
     {
-        string currentRoll;
+        string rollsString = FormatRolls(rolls);
+        for (int i = 0; i < rollsString.Length; i++)
+        {
+            rollsTexts[i].text = rollsString[i].ToString();
+        }
+    }
+
+    public static string FormatRolls(List<int> rolls)
+    {
+        string output = "";
         for (int i = 0; i < rolls.Count; i++)
         {
+            if (rolls[i] == 10 && output.Length < 18)
+            {
+                output += "X ";
+                continue;
+            }
             if (rolls[i] == 10)
             {
-                currentRoll = "X";
-            }
-            else
-            {
-                currentRoll = rolls[i].ToString();
+                output += "X";
+                continue;
             }
 
-            bowls[i].text = currentRoll;
+
+            if (i % 2 != 0 && rolls[i] + rolls[i - 1] == 10)
+            {
+                output += "/";
+                continue;
+            }
+
+            output += rolls[i].ToString();
+        }
+
+        return output;
+    }
+
+    public void FillFrames(List<int> frames)
+    {
+        for (int i = 0; i < frames.Count; i++)
+        {
+            frameScoreTexts[i].text = frames[i].ToString();
         }
     }
 }

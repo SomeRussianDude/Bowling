@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMasterOld.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMasterOld.cs.meta" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Replaced the Action Master with a provided static Action Master">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMasterOld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMasterOld.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionMaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07c89f7520694139991332d3cf930d4813bc00/ff/db3e712f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ActionMasterTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/ActionMaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/d3/e824502f/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pin.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,9 +43,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/a7/d04ccd40/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Projects/Unity/Unity3D/Bowling/Assets/Scripts/ActionMaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PinSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2cebcf829d65417786929ec30550ab176600/c7/198971aa/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7e08fded3f3149c083ffda003fccce04118200/57/ef0f2aa4/Time.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ScoreDisplayTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ScoreMasterTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23b9I2CjeMU0bUbZj3b1Yx7ZbJV" />
@@ -109,13 +113,6 @@
       <workItem from="1643629839778" duration="7792000" />
       <workItem from="1643721623839" duration="9439000" />
       <workItem from="1643810146704" duration="1706000" />
-    </task>
-    <task id="LOCAL-00012" summary="Created an object swiper for future animation">
-      <created>1642262974387</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1642262974387</updated>
     </task>
     <task id="LOCAL-00013" summary="Attempts at physics bug fixing. The Swiper now pushes the pins off. But the ball still doesn't blow them off the floor">
       <created>1642455802325</created>
@@ -453,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643817965827</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Replaced the Action Master with a provided static Action Master">
+      <created>1643982165503</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1643982165504</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Connected the ActionMaster to the PinSetter. Actions returned by the Bowl method now trigger the animator, so the buttons on the UI have been deleted" />
     <MESSAGE value="Fixed the bug that resulted in a wrong number of pins registered as fallen" />
     <MESSAGE value="Created new object GutterBall with collider and refactored the PinSetter: now pins are counted and all the actions are triggered as soon as the ball leaves the collider" />
     <MESSAGE value="Deleted some excess lines" />
@@ -513,6 +516,7 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Set up the score display image and text" />
     <MESSAGE value="Started implementing score display mechanics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started implementing score display mechanics" />
+    <MESSAGE value="Replaced the Action Master with a provided static Action Master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced the Action Master with a provided static Action Master" />
   </component>
 </project>

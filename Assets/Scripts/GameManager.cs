@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
         bowls.Add(pinFall);
         ActionMasterOld.Action nextAction = ActionMasterOld.NextAction(bowls);
         pinSetter.PerformAction(nextAction);
+        var frames = ScoreMaster.ScoreCumulative(bowls);
+        scoreDisplay.FillFrames(frames);
         scoreDisplay.FillRollCard(bowls);
         ball.Reset();
     }

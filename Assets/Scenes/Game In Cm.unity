@@ -3353,7 +3353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb052db5309f03b45a39cea2b8fe04c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bowls:
+  rollsTexts:
   - {fileID: 1308221170}
   - {fileID: 1400926161}
   - {fileID: 32456575}
@@ -3375,7 +3375,7 @@ MonoBehaviour:
   - {fileID: 1069525410}
   - {fileID: 1676081230}
   - {fileID: 66053274}
-  frameScores:
+  frameScoreTexts:
   - {fileID: 1849230044}
   - {fileID: 2020482837}
   - {fileID: 627124413}
