@@ -53,6 +53,10 @@ public class ScoreDisplay : MonoBehaviour
             {
                 output += "-";
             }
+            else if ((scoreBox % 2 == 0 || scoreBox == 21) && rolls[i] + rolls[i - 1] == 10)
+            {
+                output += "/";
+            }
             else if (rolls[i] == 10 && scoreBox < 19)
             {
                 output += "X ";
@@ -60,10 +64,6 @@ public class ScoreDisplay : MonoBehaviour
             else if (rolls[i] == 10)
             {
                 output += "X";
-            }
-            else if (scoreBox % 2 == 0 && rolls[i] + rolls[i - 1] == 10)
-            {
-                output += "/";
             }
             else
             {

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Refactoring and verification tests passed">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Implemented a Clamp for ball nudging before play">
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreDisplayTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreDisplayTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +106,6 @@
       <workItem from="1643629839778" duration="7792000" />
       <workItem from="1643721623839" duration="9439000" />
       <workItem from="1643810146704" duration="1706000" />
-    </task>
-    <task id="LOCAL-00014" summary="Created a new Scene where everything is scaled to centimeters">
-      <created>1642517516052</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1642517516052</updated>
     </task>
     <task id="LOCAL-00015" summary="Implemented a mechanism for checking whether the pins are vertical">
       <created>1642523428324</created>
@@ -451,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644074546182</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Implemented a Clamp for ball nudging before play">
+      <created>1644075973267</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1644075973268</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Created new object GutterBall with collider and refactored the PinSetter: now pins are counted and all the actions are triggered as soon as the ball leaves the collider" />
     <MESSAGE value="Deleted some excess lines" />
     <MESSAGE value="Bug fixing: rotation of pins and the ball is reset upon reset of position,Ball  prefab updated. + Created ScoreMaster class" />
     <MESSAGE value="Refactored the ActionMaster to take in a list of pin falls from future Pin Counter. Also refactored the ActionMaster tests to work with the new structure" />
@@ -511,6 +509,7 @@
     <MESSAGE value="Started implementing score display mechanics" />
     <MESSAGE value="Replaced the Action Master with a provided static Action Master" />
     <MESSAGE value="Refactoring and verification tests passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and verification tests passed" />
+    <MESSAGE value="Implemented a Clamp for ball nudging before play" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented a Clamp for ball nudging before play" />
   </component>
 </project>
