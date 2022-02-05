@@ -25,6 +25,7 @@ public class DragLaunch : MonoBehaviour
     {
         dragEnd = Input.mousePosition;
         endTime = Time.time;
+
         var dragDuration = endTime - startTime;
         var launchSpeedX = (dragEnd.x - dragStart.x) / dragDuration / 100;
         var launchSpeedZ = (dragEnd.y - dragStart.y) / dragDuration / 100;
@@ -39,7 +40,12 @@ public class DragLaunch : MonoBehaviour
     {
         if (!ball.IsRolling)
         {
-            ball.transform.Translate(new Vector3(xNudge, 0, 0));
+            var ballPos = ball.transform.position;
+            var xPos = Mathf.Clamp(ballPos.x + xNudge, -0.45f, 0.45f);
+            var yPos = ballPos.y;
+            var zPos = ballPos.z;
+            ballPos = new Vector3(xPos, yPos, zPos);
+            ball.transform.position = ballPos;
         }
     }
 }

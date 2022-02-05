@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+    <list default="true" id="9feca8e8-b5a0-49e9-b82e-a251281d1e78" name="Changes" comment="Refactoring and verification tests passed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bowling/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ScoreDisplayTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ScoreDisplayTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragLaunch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +107,6 @@
       <workItem from="1643629839778" duration="7792000" />
       <workItem from="1643721623839" duration="9439000" />
       <workItem from="1643810146704" duration="1706000" />
-    </task>
-    <task id="LOCAL-00013" summary="Attempts at physics bug fixing. The Swiper now pushes the pins off. But the ball still doesn't blow them off the floor">
-      <created>1642455802325</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1642455802325</updated>
     </task>
     <task id="LOCAL-00014" summary="Created a new Scene where everything is scaled to centimeters">
       <created>1642517516052</created>
@@ -453,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643982165504</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Refactoring and verification tests passed">
+      <created>1644074546182</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1644074546182</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Fixed the bug that resulted in a wrong number of pins registered as fallen" />
     <MESSAGE value="Created new object GutterBall with collider and refactored the PinSetter: now pins are counted and all the actions are triggered as soon as the ball leaves the collider" />
     <MESSAGE value="Deleted some excess lines" />
     <MESSAGE value="Bug fixing: rotation of pins and the ball is reset upon reset of position,Ball  prefab updated. + Created ScoreMaster class" />
@@ -513,6 +510,7 @@
     <MESSAGE value="Set up the score display image and text" />
     <MESSAGE value="Started implementing score display mechanics" />
     <MESSAGE value="Replaced the Action Master with a provided static Action Master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced the Action Master with a provided static Action Master" />
+    <MESSAGE value="Refactoring and verification tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and verification tests passed" />
   </component>
 </project>
