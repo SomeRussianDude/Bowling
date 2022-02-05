@@ -47,25 +47,28 @@ public class ScoreDisplay : MonoBehaviour
         string output = "";
         for (int i = 0; i < rolls.Count; i++)
         {
-            if (rolls[i] == 10 && output.Length < 18)
+            int scoreBox = output.Length + 1;
+
+            if (rolls[i] == 0)
+            {
+                output += "-";
+            }
+            else if (rolls[i] == 10 && scoreBox < 19)
             {
                 output += "X ";
-                continue;
             }
-            if (rolls[i] == 10)
+            else if (rolls[i] == 10)
             {
                 output += "X";
-                continue;
             }
-
-
-            if (i % 2 != 0 && rolls[i] + rolls[i - 1] == 10)
+            else if (scoreBox % 2 == 0 && rolls[i] + rolls[i - 1] == 10)
             {
                 output += "/";
-                continue;
             }
-
-            output += rolls[i].ToString();
+            else
+            {
+                output += rolls[i].ToString();
+            }
         }
 
         return output;
